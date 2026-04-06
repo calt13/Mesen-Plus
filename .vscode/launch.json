@@ -9,10 +9,10 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Mesen2/bin/win-x64/Debug/Mesen.dll",
+            "program": "${workspaceFolder}/Mesen2/bin/win-x64/Release/Mesen.dll",
             "args": [
-                "${env:USERPROFILE}\\OneDrive\\Desktop\\bbk_bios10.nes",
-                "${env:USERPROFILE}\\OneDrive\\Desktop\\004.IMG"
+                "D:\\GitCode\\Mesen-Plus\\ROM\\SB2K_BIOS.NES",
+              //  "${env:USERPROFILE}\\OneDrive\\Desktop\\004.IMG"
             ],
             "cwd": "${workspaceFolder}/Mesen2/UI",
             "console": "internalConsole",
